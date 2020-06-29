@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593435166819' stop='1593435181354'>
+    <name>Launch Google Chrome Browser</name>
+    <title>Launch Google Chrome Browser</title>
+    <test-cases>
+        <test-case start='1593435166820' status='failed' stop='1593435181353'>
+            <name>Launching Google Chrome Browser</name>
+            <title>Launching Google Chrome Browser</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1593435166824' status='passed' stop='1593435170644'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='364fac6e-9424-4d58-bdd0-bdd7f7a6a382-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1593435170645' status='passed' stop='1593435170660'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7b47aa6c-be44-4db2-bd30-b3e9e31326e0-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='587e7da2-18e2-4f59-aa67-7e777b947549-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1593435170665' status='passed' stop='1593435170677'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='e3274044-e70e-43c6-be87-22ebcdae8b97-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='67595c0c-1df6-4597-acc1-91c8e0fdf7bf-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1593435170679' status='passed' stop='1593435170691'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3ddb0da3-63f8-4066-b634-3abd686fbc3b-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='333f8b23-2476-4889-9970-32513c304c23-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1593435170692' status='passed' stop='1593435170707'>
+                    <name>GET /session/:sessionId/element/90cff1e9-1c42-404d-8d10-6422a4a1155d/text</name>
+                    <title>GET /session/:sessionId/element/90cff1e9-1c42-404d-8d10-6422a4a1155d/text</title>
+                    <attachments>
+                        <attachment title='Response' source='db60092e-47ee-4f93-9740-c557694004d3-attachment.json' type='application/json' size='16'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1593435180724' status='passed' stop='1593435181352'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4b59f229-50bd-4519-b918-f8b95d00e274-attachment.png' type='image/png' size='655612'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Expect Customer Login to have text
+                
+                Expected: "Customer Login"
+                Received: undefined</message>
+                <stack-trace>Error: Expect Customer Login to have text
+                
+                Expected: "Customer Login"
+                Received: undefined
+                    at Context.&lt;anonymous> (/Users/giridhar/Documents/Repositories/learning-webdriverio/tests/launching-browser.js:17:26)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593439953318' stop='1593439953786'>
+    <name>Launch Google Chrome Browser</name>
+    <title>Launch Google Chrome Browser</title>
+    <test-cases>
+        <test-case start='1593439953319' status='broken' stop='1593439953785'>
+            <name>Launching Google Chrome Browser</name>
+            <title>Launching Google Chrome Browser</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1593439953328' status='passed' stop='1593439953784'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ce969b89-56cf-407c-9bff-0de19644437f-attachment.png' type='image/png' size='16806'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.startRecordingScreen is not a function</message>
+                <stack-trace>TypeError: browser.startRecordingScreen is not a function
+                    at Context.&lt;anonymous> (/Users/giridhar/Documents/Repositories/learning-webdriverio/tests/launching-browser.js:5:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

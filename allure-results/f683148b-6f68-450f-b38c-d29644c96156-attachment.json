@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#loginPanel > form > div:nth-child(2) > input"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"loginPanel\"]/form/div[3]/input"
+}

@@ -1,0 +1,10 @@
+{
+  "script": "return ((el1, el2) => el1 === el2).apply(null, arguments)",
+  "args": [
+    {
+      "element-6066-11e4-a52e-4f735466cecf": "9612c297-727a-4d82-8687-365443b1ad2f",
+      "ELEMENT": "9612c297-727a-4d82-8687-365443b1ad2f"
+    },
+    {}
+  ]
+}
